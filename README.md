@@ -20,6 +20,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Contact Form Email Setup
+
+This portfolio uses Web3Forms to send contact form submissions to your inbox.
+
+1. Create an access key at `https://web3forms.com/`.
+2. Create `.env.local` in the project root and add:
+
+```bash
+NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY=your_real_access_key
+```
+
+3. Restart the dev server.
+4. Submit the contact form and check your inbox for `pk187405@gmail.com`.
+
+You can use `.env.example` as a reference.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
