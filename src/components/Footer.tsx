@@ -21,7 +21,8 @@ export default function Footer() {
 
         <div className="mt-10 mb-16 flex flex-wrap items-center justify-center gap-4 text-sm font-medium text-zinc-400 sm:mt-12 sm:mb-20 sm:gap-8">
           <a
-            href="https://www.linkedin.com/in/pardeep-kumar-patiala"
+            href="https://www.linkedin.com/in/pardeep-sharma-19038720a/"
+            aria-label="LinkedIn Profile"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-white"
